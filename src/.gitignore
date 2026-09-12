@@ -1,0 +1,4 @@
+*.class
+redis_server.log
+redis-data.txt
+.ipynb_checkpoints/
