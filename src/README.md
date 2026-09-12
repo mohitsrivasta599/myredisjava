@@ -158,6 +158,35 @@ Through this project, the following concepts were implemented and practiced:
 * Object-oriented design
 * Basic database system concepts
 
+
+  ## Demo / Output
+
+Example interaction with the Redis server:
+
+```text
+================================
+       MY REDIS SERVER
+================================
+Server started on port 6379
+Data loaded from disk
+Waiting for clients...
+
+SET name Mohit -> OK
+GET name -> Mohit
+
+SET counter 10 -> OK
+INCR counter -> 11
+DECR counter -> 10
+
+KEYS -> name
+counter
+
+SET temporary test -> OK
+EXPIRE temporary 10 -> OK
+TTL temporary -> 9
+
+
+
 ## Future Improvements
 
 Possible future improvements include:
